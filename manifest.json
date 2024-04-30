@@ -1,0 +1,26 @@
+{
+    "name": "Extension accessibilité",
+    "description": "Extension pour rendre les sites plus accessibles",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "icons":{
+        "16": "icone16.png",
+        "32": "icone32.png",
+        "128": "icone128.png"
+    },
+    "content_scripts": [
+    {
+        "matches": [
+            "https://*.wikipedia.org/*"
+        ],
+        "js": [
+            "background.js",
+            "font.js",
+            "size.js"
+        ]
+    }
+    ],
+    "action":{
+        "default_popup":"index.html"
+    }
+}
