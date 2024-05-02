@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d3deeb;
+  font-family: calibri;
+  size: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: calibri;
+  color: #0c0d0f;
+}
+
+label {
+  margin: 10px 10px 10px 10px;
+  color: #0c0d0f;
+}
+
+option {
+  margin-top: 10px;
+}
+
+select {
+  font-family: calibri;
+  margin-top: 10px;
+}
+
+#font_family-preference {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(255, 230, 0);
+}
+
+#font {
+  margin-bottom: 10px;
+}
+
+#color_background {
+  margin: auto;
+}
+
+.ok {
+  font-family: calibri;
+  margin: 10px;
+  color: #0c0d0f;
+  background-color: white;
+}
