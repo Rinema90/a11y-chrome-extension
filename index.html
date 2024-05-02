@@ -1,15 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Extension accessibilité</title>
-</head>
-<body>
-    <h1> Bienvenue </h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Extension accessibilité</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Bienvenue</h1>
     <p>
-        cette extension a pour but de développer 3 fonctionnalités : police, couleur de fond, taille
+      Cette extension a pour but de développer 3 fonctionnalités : police,
+      couleur de fond, taille
     </p>
-    
-</body>
+
+    <label id="font_family-preference">Choisi ta police d'écriture : </label>
+    <select name="=font" id="font">
+      <option value="calibri">calibri</option>
+      <option value="tahoma">tahoma</option>
+      <option value="helvelica">helvelica</option>
+      <option value="times new roman">timesnewroman</option>
+    </select>
+
+    <label id="background-preference">Choisi ta couleur de fond : </label>
+    <select name="=color_background" id="color_background">
+      <option value="">jaune</option>
+      <option value="">2</option>
+      <option value="">3</option>
+    </select>
+
+    <label id="seize-preference">Choisi ta taille d'écriture : </label>
+    <select name="=size" id="size">
+      <option value="2vw">moyen</option>
+      <option value="3vw">grand</option>
+    </select>
+
+    <input class="valider" type="button" value="Valide ton choix" />
+  </body>
 </html>
