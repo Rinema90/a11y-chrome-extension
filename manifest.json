@@ -8,15 +8,20 @@
         "32": "icone32.png",
         "128": "icone128.png"
     },
+
+    "background": {
+        "service_worker": "background.js"
+      },
+
     "content_scripts": [
     {
         "matches": [
             "https://*.wikipedia.org/*"
         ],
         "js": [
-            "background.js",
+            "backgroundColor.js",
             "font.js",
-            "size.js"
+            "size2.js"
         ]
     }
     ],
