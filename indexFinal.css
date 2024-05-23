@@ -1,0 +1,79 @@
+
+*{
+    border-radius : 15px
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.formfield-select {
+    margin: 10px;
+    justify-content: space-around;
+    
+
+}
+.formfield-select–container {
+    
+    float: left;
+    width: 100%;
+    margin-top: 6px;
+
+    
+}
+.formfield-select–container>select>option,.formfield-select–container>select {
+    
+    width: 100%;
+
+}
+#font_family-preference, #font-size-preference, #background-preference {
+    font-weight: bold;
+}
+.Bienvenue>h1 {
+    text-align: center;
+}
+.p1>p {
+    margin-left: 0.3rem;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #d82eabc2;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+   select  {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+
+
+  }
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
