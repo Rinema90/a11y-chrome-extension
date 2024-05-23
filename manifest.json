@@ -1,5 +1,5 @@
 {
-    "name": "Extension accessibilité",
+    "name": "Extension Accessibilité",
     "description": "Extension pour rendre les sites plus accessibles",
     "version": "0.0.1",
     "manifest_version": 3,
@@ -9,23 +9,16 @@
         "128": "icone128.png"
     },
 
-    "background": {
-        "service_worker": "background.js"
-      },
-
     "content_scripts": [
     {
+        "run at":"document_end",
         "matches": [
             "https://*.wikipedia.org/*"
         ],
-        "js": [
-            "backgroundColor.js",
-            "font.js",
-            "size2.js"
-        ]
+        "js": ["jquery.min.js","contentFinal.js"]
     }
     ],
     "action":{
-        "default_popup":"index.html"
+        "default_popup":"popupFinal.html"
     }
 }
